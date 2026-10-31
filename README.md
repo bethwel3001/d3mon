@@ -4,12 +4,10 @@ Ghost in the Git is a web application that surfaces abandoned GitHub repositorie
 
 ## Prerequisites
 
-Ensure the following tools and credentials are installed and configured:
-
-- Node.js (v20 or higher)
-- pnpm (v9 or higher)
-- ElevenLabs API key (for text-to-speech audio synthesis)
-- A local open-weight LLM instance (such as Gemma 2 via Ollama) or an OpenAI-compatible API endpoint
+- <img src="https://cdn.simpleicons.org/nodedotjs/339933" width="16" height="16" align="center" /> Node.js (v20 or higher)
+- <img src="https://cdn.simpleicons.org/pnpm/F69220" width="16" height="16" align="center" /> pnpm (v9 or higher)
+- <img src="https://cdn.simpleicons.org/elevenlabs/white" width="16" height="16" align="center" /> ElevenLabs API key (for text-to-speech audio synthesis)
+- <img src="https://cdn.simpleicons.org/ollama/white" width="16" height="16" align="center" /> A local open-weight LLM instance (such as Gemma 2 via Ollama) or an OpenAI-compatible API endpoint
 
 ## Installation
 
@@ -38,15 +36,17 @@ Ensure the following tools and credentials are installed and configured:
 
 ## Tech Stack
 
-- Framework: Next.js (App Router)
-- Language: TypeScript
-- Styling: Tailwind CSS
-- Animations: Framer Motion
-- Icons: Lucide React
-- GitHub API: Octokit
-- AI Inference: Gemma 2 (via Ollama or compatible API)
-- Voice Synthesis: ElevenLabs API
-- Package Manager: pnpm
+| Category | Technology |
+| :--- | :--- |
+| **Framework** | Next.js (App Router) |
+| **Language** | TypeScript |
+| **Styling** | Tailwind CSS |
+| **Animations** | Framer Motion |
+| **Icons** | Lucide React |
+| **GitHub API** | Octokit |
+| **AI Inference** | Gemma 2 (via Ollama or compatible API) |
+| **Voice Synthesis** | ElevenLabs API |
+| **Package Manager** | pnpm |
 
 ## Contributing
 
