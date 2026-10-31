@@ -1,0 +1,57 @@
+# Ghost in the Git
+
+Ghost in the Git is a web application that surfaces abandoned GitHub repositories and channels their commit history into poetic laments and synthesized speech. It interrogates dormant codebases using open-weight language models and generates spoken eulogies using voice AI.
+
+## Prerequisites
+
+Ensure the following tools and credentials are installed and configured:
+
+- Node.js (v20 or higher)
+- pnpm (v9 or higher)
+- ElevenLabs API key (for text-to-speech audio synthesis)
+- A local open-weight LLM instance (such as Gemma 2 via Ollama) or an OpenAI-compatible API endpoint
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/username/ghost-in-the-git.git
+   cd ghost-in-the-git
+   ```
+
+2. Install dependencies:
+   ```bash
+   pnpm install
+   ```
+
+3. Configure environment variables:
+   ```bash
+   cp .env.example .env.local
+   ```
+   Set `ELEVENLABS_API_KEY`, `LLM_ENDPOINT`, and optionally `GITHUB_TOKEN` in `.env.local`.
+
+4. Start the development server:
+   ```bash
+   pnpm dev
+   ```
+   Open `http://localhost:3000` in your browser.
+
+## Tech Stack
+
+- Framework: Next.js (App Router)
+- Language: TypeScript
+- Styling: Tailwind CSS
+- Animations: Framer Motion
+- Icons: Lucide React
+- GitHub API: Octokit
+- AI Inference: Gemma 2 (via Ollama or compatible API)
+- Voice Synthesis: ElevenLabs API
+- Package Manager: pnpm
+
+## Contributing
+
+Please review the [CONTRIBUTING.md](CONTRIBUTING.md) guide for details on our workflow, coding standards, and pull request process.
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
