@@ -52,6 +52,6 @@ Ghost in the Git is a web application that surfaces abandoned GitHub repositorie
 
 Please review the [CONTRIBUTING.md](CONTRIBUTING.md) guide for details on our workflow, coding standards, and pull request process.
 
-## License
+## Submission Blog
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+Read the full Hacktoberfest challenge submission on DEV.to: [Ghost in the Git: Conjuring the Spirits of Abandoned Repositories](https://dev.to/bethwel3001/ghost-in-the-git-conjuring-the-spirits-of-abandoned-repositories-3i4p)
